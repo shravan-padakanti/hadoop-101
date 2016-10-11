@@ -18,7 +18,7 @@ Hadoop moves computation to data instead of the other way round.
 4. **Hadoop MapReduce**: Programming model that scales data across different processes <br/>
 All the modules are designed with the scalability and reliability in mind.<br/>
 
-**Other components: **
+**Other components:**
 
 * **Pig**: Scripting <br/>
 * **HBase**: Non relational database <br/>
