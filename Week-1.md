@@ -10,15 +10,15 @@ Hadoop moves computation to data instead of the other way round.
 
 ## The Apache Framework
 Has 4 basic components:
-1. **Hadoop Common**: Libraries and utilities needed by other Hadoop Components
-2. **HDFS**: high bandwidth distributed storage
-3. **Hadoop Yarn**: Manages computer resources and uses them to schedule users and applications
-4. **Hadoop MapReduce**: Programming model that scales data across different processes
-All the modules are designed with the scalability and reliability in mind. 
+1. **Hadoop Common**: Libraries and utilities needed by other Hadoop Components <br/>
+2. **HDFS**: high bandwidth distributed storage <br/>
+3. **Hadoop Yarn**: Manages computer resources and uses them to schedule users and applications <br/>
+4. **Hadoop MapReduce**: Programming model that scales data across different processes <br/>
+All the modules are designed with the scalability and reliability in mind.<br/>
 
 Other components: 
-**Pig**: Scripting
-**HBase**: Non relational database
-**Oozie**: Workflow manager
-**Hive**: SQL Query
-**Sqoop**: Data Exchange
+**Pig**: Scripting <br/>
+**HBase**: Non relational database <br/>
+**Oozie**: Workflow manager <br/>
+**Hive**: SQL Query <br/>
+**Sqoop**: Data Exchange <br/>
