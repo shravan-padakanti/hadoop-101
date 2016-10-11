@@ -1,4 +1,4 @@
-# Hadoop Stack Basics
+## Hadoop Stack Basics
 
 Apache Hadoop is Open Source software framework for storage and large-scale processing of data-sets. 
 (Apache License)
@@ -25,3 +25,9 @@ All the modules are designed with the scalability and reliability in mind.<br/>
 * **Oozie**: Workflow manager <br/>
 * **Hive**: SQL Query <br/>
 * **Sqoop**: Data Exchange <br/>
+
+## Hadoop Distributed File System (HDFS)
+
+## The Hadoop "Zoo"
+
+## Hadoop Ecosystem Major Components
