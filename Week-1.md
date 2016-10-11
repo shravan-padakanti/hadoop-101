@@ -9,7 +9,9 @@ Hadoop moves computation to data instead of the other way round.
 **Reliability** (hardware failures are handled automatically).
 
 ## The Apache Framework
+
 Has 4 basic components:
+
 1. **Hadoop Common**: Libraries and utilities needed by other Hadoop Components <br/>
 2. **HDFS**: high bandwidth distributed storage <br/>
 3. **Hadoop Yarn**: Manages computer resources and uses them to schedule users and applications <br/>
@@ -17,6 +19,7 @@ Has 4 basic components:
 All the modules are designed with the scalability and reliability in mind.<br/>
 
 Other components: 
+
 **Pig**: Scripting <br/>
 **HBase**: Non relational database <br/>
 **Oozie**: Workflow manager <br/>
