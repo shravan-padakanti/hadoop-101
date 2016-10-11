@@ -20,8 +20,8 @@ All the modules are designed with the scalability and reliability in mind.<br/>
 
 **Other components: **
 
-**Pig**: Scripting <br/>
-**HBase**: Non relational database <br/>
-**Oozie**: Workflow manager <br/>
-**Hive**: SQL Query <br/>
-**Sqoop**: Data Exchange <br/>
+* **Pig**: Scripting <br/>
+* **HBase**: Non relational database <br/>
+* **Oozie**: Workflow manager <br/>
+* **Hive**: SQL Query <br/>
+* **Sqoop**: Data Exchange <br/>
