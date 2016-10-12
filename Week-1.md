@@ -42,7 +42,7 @@ More Information: [Secondary Namenode - What it really do?](http://blog.madhukar
 ### Hadoop MapReduce engine
 At the core of every hadoop based system there is some version of a MapReduce engine. (There are some other engines developed, but still use MapReduce at its core, eg. YARN). A **job** is a execution of full-program (from mapping to reducing) across a set of data. A **task** is execution of either the map or the reduce function on a slice of data. The Hadoop Map Reduce Engine consists of a **job-tracker** which keeps a track of the jobs submitted by managing resources (task trackers) and task life cycles.
 
-[resources/images/MapReduceEngineOverview.png]
+![](resources/images/MapReduceEngineOverview.png)
 
 ### Hadoop Nextgen MapReduce engine (YARN)
 YARN stands for "Yet Another Resource Negotiator" is a cluster-manager. It was introduced to generalize HDFS to work with different technologies and not just Map Reduce. Thus, it is not just constrained or limited to only Map and Reduce processes but also supports other processes like Graph Processing, Machine Learning, etc, while still being fully compatible with MapReduce. It also separates resource management and the processes components and allows better cluster utilization. 
