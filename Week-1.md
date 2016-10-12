@@ -47,6 +47,8 @@ At the core of every hadoop based system there is some version of a MapReduce en
 ### Hadoop Nextgen MapReduce engine (YARN)
 YARN stands for "Yet Another Resource Negotiator" is a cluster-manager. It was introduced to generalize HDFS to work with different technologies and not just Map Reduce. Thus, it is not just constrained or limited to only Map and Reduce processes but also supports other processes like Graph Processing, Machine Learning, etc, while still being fully compatible with MapReduce. It also separates resource management and the processes components and allows better cluster utilization. 
 
+![](resources/images/yarn.png)
+
 ## The Hadoop "Zoo"
 
 ## Hadoop Ecosystem Major Components
