@@ -39,6 +39,8 @@ The secondarynamenode job is not to be a secondary to the name node, but only to
 Reference: [Name node Vs Secondary name node](http://stackoverflow.com/questions/19970461/name-node-vs-secondary-name-node) <br/>
 More Information: [Secondary Namenode - What it really do?](http://blog.madhukaraphatak.com/secondary-namenode---what-it-really-do/)
 
+## Engines used in Hadoop
+
 ### Hadoop MapReduce engine
 At the core of every hadoop based system there is some version of a MapReduce engine. (There are some other engines developed, but still use MapReduce at its core, eg. YARN). A **job** is a execution of full-program (from mapping to reducing) across a set of data. A **task** is execution of either the map or the reduce function on a slice of data. The Hadoop Map Reduce Engine consists of a **job-tracker** which keeps a track of the jobs submitted by managing resources (task trackers) and task life cycles.
 
