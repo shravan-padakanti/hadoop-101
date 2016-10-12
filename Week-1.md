@@ -29,16 +29,15 @@ All the modules are designed with the scalability and reliability in mind.<br/>
 ## Hadoop Distributed File System (HDFS)
 High bandwidth distributed file system **written in Java** for the Hadoop Framework. It can stores file of sizes GB, TB, PB.
 
-Each machine in the cluster has a **single name-node** and a **group of data-nodes** that form the HDFS. With each name-node, there is also a **secondary name-node**. This is **not** a backup or failsafe for the name-node. What it does is it regularly creates snapshots of the primary name-node, directory information etc and allows the primary name-node to work faster.
+Each machine in the cluster has a **single active name-node** which stores the HDFS meta-data and a **group of data-nodes** which store the actual data. With each name-node, there is also a **secondary name-node** which regularly creates snapshots of the primary name-node, directory information etc and allows the primary name-node to work faster. Together these nodes across the cluster form the HDFS.
 
 ### Secondary Name Node: 
-The namenode stores the HDFS filesystem information in a file named fsimage. Updates to the file system (add/remove blocks) are not updating the fsimage file, but instead are logged into a file, so the I/O is fast append only streaming as opposed to random file writes. When restaring, the namenode reads the fsimage and then applies all the changes from the log file to bring the filesystem state up to date in memory. This process takes time.
+The name-node stores the HDFS filesystem information and meta-data in a file named **fsimage**. Updates to the file system (add/remove blocks) are not updating the fsimage file, but instead are logged into a separate "edit-log" file, so the I/O is fast append only streaming as opposed to random file writes. When restaring, the namenode reads the fsimage and then applies all the changes from the log file to bring the filesystem state up to date in memory. This process takes time.
 
 The secondarynamenode job is not to be a secondary to the name node, but only to periodically read the filesystem changes log and apply them into the fsimage file, thus bringing it up to date. This allows the namenode to start up faster next time.
 
-Reference: [Name node Vs Secondary name node](http://stackoverflow.com/questions/19970461/name-node-vs-secondary-name-node)
+Reference: [Name node Vs Secondary name node](http://stackoverflow.com/questions/19970461/name-node-vs-secondary-name-node) <br/>
 More Information: [Secondary Namenode - What it really do?](http://blog.madhukaraphatak.com/secondary-namenode---what-it-really-do/)
-
 
 ## The Hadoop "Zoo"
 
