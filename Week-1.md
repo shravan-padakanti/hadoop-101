@@ -55,6 +55,13 @@ YARN stands for "Yet Another Resource Negotiator" is a cluster-manager. It was i
 
 ![](https://github.com/rohitvg/CourseraHadoop/blob/master/resources/images/cloudera_zoo.png)
 
-
+Flume, Sqoop: For data ingestion <br/>
+Oozie: workflow engine <br/>
+Pig, Hive: High level language to query the data <br/>
+Zookeeper: Coordination service <br/>
 
 ## Hadoop Ecosystem Major Components
+
+### Apache Sqoop: 
+
+Tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores (eg. relational databases).
