@@ -51,6 +51,10 @@ YARN stands for "Yet Another Resource Negotiator" is a cluster-manager. It was i
 
 ![](https://github.com/rohitvg/CourseraHadoop/blob/master/resources/images/yarn.png)
 
-## The Hadoop "Zoo"
+## The Hadoop "Zoo" (on Cloudera):
+
+![](https://github.com/rohitvg/CourseraHadoop/blob/master/resources/images/cloudera_zoo.png)
+
+
 
 ## Hadoop Ecosystem Major Components
