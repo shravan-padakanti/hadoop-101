@@ -64,4 +64,5 @@ Zookeeper: Coordination service <br/>
 
 ### Apache Sqoop: 
 
+Stands for **SQ**L to Had**oop**.
 Tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores (eg. relational databases).
