@@ -72,8 +72,17 @@ Hadoop Database
 High level complete scripting language for MapReduce programming. Also Pig-scripts can be integrated into Java, etc.
 
 ### Hive:
-Datawarehouse software which facilitates querying and managing large datasets residing in distributed storage using a SQL like language called Hive-Query-Language.
+Datawarehouse software which facilitates querying and managing large datasets residing in distributed storage using a SQL like language called Hive-QL.
 
 ### Oozie:
-Workflow scheduler system that manages Apache Hadoop Jobs.
+Workflow scheduler system that manages Apache Hadoop Jobs. THe oozie workflow jobs are Directed Acyclic Graphs. Can be recurrent triggered by frequency or data availibility (called coordinator jobs)
 
+### Zookeeper: 
+Coordinates the Apache "zoo". Provides centralized services for maintaining, configuration information, distributed synchronization to the applications.
+
+### Flume: 
+Distributed and reliable service for collecting, aggregating and moving large amounts of data. 
+
+## Hadoop Ecosystem Not So Major Components
+
+### Impala:
