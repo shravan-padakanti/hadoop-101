@@ -63,6 +63,17 @@ Zookeeper: Coordination service <br/>
 ## Hadoop Ecosystem Major Components
 
 ### Apache Sqoop: 
+Stands for **SQ**L to Had**oop**. It is a command line tool which lets us import tables/databases into the HDFS and generates Java classes to interact with the data. Tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores (eg. relational databases).
 
-Stands for **SQ**L to Had**oop**.
-Tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores (eg. relational databases).
+### HBase: 
+Hadoop Database
+
+### Pig:
+High level complete scripting language for MapReduce programming. Also Pig-scripts can be integrated into Java, etc.
+
+### Hive:
+Datawarehouse software which facilitates querying and managing large datasets residing in distributed storage using a SQL like language called Hive-Query-Language.
+
+### Oozie:
+Workflow scheduler system that manages Apache Hadoop Jobs.
+
