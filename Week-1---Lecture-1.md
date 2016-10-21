@@ -63,7 +63,7 @@ Zookeeper: Coordination service <br/>
 ## Hadoop Ecosystem Major Components
 
 ### Apache Sqoop: 
-Stands for **SQ**L to Had**oop**. It is a command line tool which lets us import tables/databases into the HDFS and generates Java classes to interact with the data. Tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores (eg. relational databases).
+Stands for **SQ**L to Had**oop**. It is a command line tool which lets us efficiently transfer data from/to SQL from/to the HDFS and generates Java classes to interact with the data. **Sqoop 1** is a thick client where we can submit the MapReduce jobs directly. **Sqoop 2** is a thin client for the same.
 
 ### HBase: 
 Hadoop Database
